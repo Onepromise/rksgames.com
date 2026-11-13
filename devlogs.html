@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dev Logs — Rider Kick Studios</title>
+<meta name="description" content="Dev Logs from Rider Kick Studios: dated development notes from the team building Room 303, our first-person horror game set in Kabukicho, Tokyo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Main navigation">
+  <a class="brand" href="index.html">RKS<span>.</span></a>
+  <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul>
+    <li><a href="room303.html">Room 303</a></li>
+    <li><a href="devlogs.html" class="active">Dev Logs</a></li>
+    <li><a href="studio.html">Studio</a></li>
+    <li><a href="index.html#services">Services</a></li>
+    <li><a href="studio.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header class="hero" style="min-height: 76vh;">
+  <img class="emblem" src="assets/rks-emblem.jpg" alt="Rider Kick Studios emblem — a white stylized rider helmet on black">
+  <div class="jp">開発日誌</div>
+  <h1>DEV LOGS</h1>
+  <p class="tagline">Notes from <b>behind the door</b></p>
+  <div class="scroll-hint">SCROLL</div>
+</header>
+
+<section class="block reveal">
+  <div class="kicker">Room 303 · Development notes</div>
+  <h2 class="section-title">BUILDING THE HOTEL,<br>ROOM BY ROOM</h2>
+  <p class="lead">This is the studio's running record of <strong>Room 303</strong> as it takes shape: dated notes from the team on the rooms, the phone in your hand, and the scares waiting in the corridor.</p>
+  <p class="lead">Entries are posted <strong>newest first</strong>, each one dated, so you can follow the work in the order it surfaces.</p>
+
+  <div class="devlog-topics">
+    <div class="room"><div class="num">01</div><div class="stage">The Rooms</div><div class="desc">Five rooms. Five stages of grief. What each door is hiding, and how it got that way.</div></div>
+    <div class="room"><div class="num">02</div><div class="stage">The Phone</div><div class="desc">Camera, flashlight, infrared, messages, battery. The only weapon a guest gets.</div></div>
+    <div class="room"><div class="num">03</div><div class="stage">The Scares</div><div class="desc">The dread, the detail, and the decisions behind both.</div></div>
+  </div>
+</section>
+
+<section class="block reveal" id="entries">
+  <div class="kicker">Latest entries</div>
+  <h2 class="section-title">THE LOG BOOK</h2>
+
+  <!-- Dev log entries: add each new entry as an <article class="devlog-entry"> at the TOP of .devlog-list, newest first.
+       Entry shape:
+       <article class="devlog-entry">
+         <div class="devlog-meta"><time datetime="YYYY-MM-DD">Month D, YYYY</time> · Room 303</div>
+         <h3>Entry title</h3>
+         <p>Entry text.</p>
+       </article> -->
+  <div class="devlog-list">
+    <article class="devlog-empty">
+      <div class="room-num">303</div>
+      <div class="devlog-meta">First entry · Coming soon</div>
+      <h3>THE REGISTER IS OPEN</h3>
+      <p>No entries yet. The first dev log will be signed in here soon, and every entry after it will land above the last, newest first. Until then, the hotel is quiet.</p>
+      <p>Mostly.</p>
+    </article>
+  </div>
+</section>
+
+<section class="block reveal contact-box">
+  <div class="kicker">The game</div>
+  <h2 class="section-title">DON'T ANSWER<br>THE DOOR.</h2>
+  <p class="fine">Room 303 is a first-person horror game from Rider Kick Studios, built in Unreal Engine 5.</p>
+  <a class="btn" href="room303.html">Enter Room 303</a>
+</section>
+
+<footer>
+  <div class="f-socials">
+    <a href="https://x.com/RiderKickStudio" aria-label="RKS on X">X</a>
+    <a href="https://www.instagram.com/riderkickstudios" aria-label="RKS on Instagram">Instagram</a>
+    <a href="https://www.threads.net/@riderkickstudios" aria-label="RKS on Threads">Threads</a>
+    <a href="#" aria-label="RKS on TikTok">TikTok</a>
+    <a href="#" aria-label="RKS on YouTube">YouTube</a>
+    <a href="#" aria-label="RKS on Facebook">Facebook</a>
+  </div>
+  <p>RIDER KICK STUDIOS LLC &nbsp;·&nbsp; WE ARE ALL HEROES</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
